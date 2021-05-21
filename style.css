@@ -1,0 +1,102 @@
+/*fonts used for header*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100&display=swap');
+
+
+/*img rules */
+img {
+  width: 300px;
+  padding: 10px;
+}
+/* class for centering and adjusting to circle */ 
+.center-circle {
+  border-radius: 50%; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+/* h1 - h3 rules */
+h1 {
+  font-size: 35px;
+  margin: 0;
+  text-align: center;
+  color: #E8DFDC;
+  font-family: 'Lobster', cursive;
+}
+h2 {
+  font-size: 10px;
+  margin: 0;
+  text-align: center;
+  color: #E8DFDC; 
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+  font-size: 19px;
+  margin: 0;
+  text-align: center;
+  color: #553228; 
+}
+
+h4 {
+  font-size: 10px;
+  margin: 0;
+  text-align: center;
+  color: #E8DFDC; 
+}
+
+/* paragraph, unordered list, ordered list, list item, and anchor element rules */
+p, ul, ol, li, a{
+  font-size: 13px;
+  color: #553228
+}
+
+/*horizontal rule rules*/
+hr{
+  width: 75%;
+}
+
+/*body container rules */
+body {
+  font-family: "Verdana"; 
+  background-color: #E8DFDC;
+  box-sizing: border-box;
+}
+
+/* header and footer with same rules */
+ header, footer {
+   text-align: center;
+   background: #362E23;
+   margin: 10px;
+   padding: 1px;
+}  
+/* section and article containers with same rules*/
+section, article {
+  background: #E8DFDC;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: auto;
+  padding: 7px;
+}
+
+/* add pseudo-classes for the links*/
+/* unvisited link and visted link with the same color */
+a:link  {
+  color: #495057;
+}
+ a:visited {
+  color: #495057;
+}
+
+/* mouse over link with different color */
+a:hover {
+  color: #CB997E;
+}
+
+/* selected link with another different color */
+a:active {
+  color: #B7B7A4;
+
